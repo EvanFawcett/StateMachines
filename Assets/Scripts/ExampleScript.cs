@@ -9,7 +9,7 @@ public class ExampleScript : MonoBehaviour
         Jen,
         Marc,
         Jose,
-        Jessica
+        Evan
     }
     public EName name = EName.Jen;
     public string str_name;
@@ -22,7 +22,7 @@ public class ExampleScript : MonoBehaviour
             case EName.Jen: Debug.Log("My name is Jen"); break;
             case EName.Marc: Debug.Log("My name is Marc"); break;
             case EName.Jose: Debug.Log("My name is Jose"); break;
-            case EName.Jessica: Debug.Log("My name is Jessica"); break;
+            case EName.Evan: Debug.Log("My name is Evan"); break;
             default: Debug.Log("My name is something"); break;
         }
     }
